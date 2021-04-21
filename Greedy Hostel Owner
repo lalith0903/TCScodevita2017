@@ -32,6 +32,9 @@ Input
 3
 JA ABHF JAACJA JAACDA
 500
+Output
+GREEDY
+105
 Explanation
 In the readin g JAABHF, J represents 0 since it is followed by A, and hence the reading is 000175. Similarly, the other readings
 are 000200 and 000230. The total of the readings in the rooms is 605 and the central meter reading is 500. Thus the owner is
@@ -42,11 +45,9 @@ Input
 JA ACJA JAABCH JAABHD JAACAF JAJAJJ JAABEJ JAACJJ JAACDI
 1500
 Output
-INNOCE NT
+INNOCENT
 Explanation
 The readings are,
 000200, 000127, 000173, 000205, 0000099, 000149, 000299, 000238
 The sum of these readings is 1490 < 1500, the central meter reading. Hence the owner is INNOCENT.
-Output
-GREEDY
-105
+
